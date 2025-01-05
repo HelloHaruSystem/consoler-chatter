@@ -1,7 +1,11 @@
+import ServerSide.Server;
+
 public class Driver {
 
     public static void main (String[] args) {
-        System.out.println("Hello World!");
+        Server chatter = new Server();
+
+        chatter.run();
     }
 
 }
