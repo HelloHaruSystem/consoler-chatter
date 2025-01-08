@@ -82,6 +82,7 @@ public class Server implements Runnable {
             this.client = client;
         }
 
+        // TODO: don't print the message for the client sending
         @Override
         public void run() {
             try {

@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 
+// TODO: split client and server
 public class Client implements Runnable {
 
     private Socket clientSocket;
