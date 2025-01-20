@@ -7,7 +7,7 @@ public class MainPanel extends JPanel {
 
     // screen settings
     private final int screenWidth = 380;
-    private final int screenHeight = 480;
+    private final int screenHeight = 420;
 
     public MainPanel() {
         this.setPreferredSize(new Dimension(screenWidth, screenHeight));

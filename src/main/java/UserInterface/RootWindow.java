@@ -9,7 +9,7 @@ public class RootWindow {
         JFrame root = new JFrame();
         root.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         root.setResizable(false);
-        root.setTitle("Chat App");
+        root.setTitle("Console chatter");
 
         MainPanel mainPanel = new MainPanel();
         root.add(mainPanel);
