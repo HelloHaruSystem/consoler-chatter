@@ -27,6 +27,7 @@ public class Client implements Runnable {
             in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
             running = true;
 
+
             InputHandler inputHandler = new InputHandler();
             Thread thread = new Thread(inputHandler);
             thread.start();
@@ -37,7 +38,7 @@ public class Client implements Runnable {
             }
 
         } catch (Exception e) {
-           // TODO: Handle Proberly
+           // TODO: Handle Properly
             e.printStackTrace();
         }
     }
